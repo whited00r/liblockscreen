@@ -1,0 +1,9 @@
+Package: com.grayd00r.liblockscreen
+Name: liblockscreen
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Because adding lib makes it professional, right?
+Maintainer: grayd00r
+Author: grayd00r
+Section: Tweaks

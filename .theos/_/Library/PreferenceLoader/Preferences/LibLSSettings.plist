@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = LibLSSettings;
+	cell = PSLinkCell;
+	detail = LibLSSettingsListController;
+	icon = LibLSSettings.png;
+	isController = 1;
+	label = Lockscreen;
+    };
+}

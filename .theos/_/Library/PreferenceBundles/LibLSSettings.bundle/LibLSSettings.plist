@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Choose a lockscreen :)</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.grayd00r.liblockscreen</string>
+			<key>key</key>
+			<string>enabled</string>
+			<key>label</key>
+			<string>Enabled</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>label</key>
+			<string>Lockscreen:</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>titlesDataSource</key>
+			<string>lockscreenNames:</string>
+			<key>valuesDataSource</key>
+			<string>lockscreenValues:</string>
+			<key>key</key>
+			<string>lockscreenName</string>
+			<key>defaults</key>
+			<string>com.grayd00r.liblockscreen</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Placeholder settings. These will eventually go in a dynamic sub-menu and be relative to each lockscreen</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.greyd00r.lockscreen</string>
+			<key>key</key>
+			<string>blurAlbumArt</string>
+			<key>label</key>
+			<string>Blurred Album Art</string>
+			<key>footerText</key>
+			<string>This uses blurred album art as the background wallpaper when music is playing.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.greyd00r.lockscreen</string>
+			<key>key</key>
+			<string>showAlbumArtUnderlay</string>
+			<key>label</key>
+			<string>Album Art Underlay</string>
+			<key>footerText</key>
+			<string>Blend the album art into the background a bit more?</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<true/>
+			<key>defaults</key>
+			<string>com.greyd00r.lockscreen</string>
+			<key>key</key>
+			<string>tintWallpaper</string>
+			<key>label</key>
+			<string>Tint Wallpaper</string>
+			<key>footerText</key>
+			<string>Tint the current wallpaper using the dominant colour of the now playing album art. This overrides the Blurred Album Art option when enabled.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Lockscreen</string>
+</dict>
+</plist>
